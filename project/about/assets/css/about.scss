@@ -1,0 +1,33 @@
+/* ABOUT PAGE */
+
+article.about {
+	#about-ted, #about-tedx, #about-tedxntua, #about-img {
+		.page-heading {
+			color:$primary;
+		}
+		margin: 0 auto;
+		max-width: 768px;
+		p {
+			text-align: justify;
+		}
+	}
+	.grid-image {
+		  margin: 0 auto;
+      max-width: 100%;
+	}
+	.vertical-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+}
+
+/*
+ * MEDIA QUERIES
+ */
+
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+}

@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-26 18:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: project/about/templates/about/index.html:14
+msgid "about.ted.content"
+msgstr ""
+"TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as "
+"a four-day conference in California 30 years ago, TED has grown to support "
+"its mission with multiple initiatives. The two annual TED Conferences invite "
+"the world's leading thinkers and doers to speak for 18 minutes or less. Many "
+"of these talks are then made available, free, at TED.com. TED speakers have "
+"included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, "
+"Nandan Nilekani, Philippe Starck, Ngozi Okonjo-Iweala, Sal Khan and Daniel "
+"Kahneman.The annual TED Conference takes place each spring in Vancouver, "
+"British Columbia. TED's media initiatives include TED.com, where new TED "
+"Talks are posted daily; the Open Translation Project, which provides "
+"subtitles and interactive transcripts as well as translations from "
+"volunteers worldwide; the educational initiative TED-Ed. TED has established "
+"the annual TED Prize, where exceptional individuals with a wish to change "
+"the world get help translating their wishes into action; TEDx, which "
+"supports individuals or groups in hosting local, self- organized TED-style "
+"events around the world, and the TED Fellows program, helping world-changing "
+"innovators from around the globe to amplify the impact of their remarkable "
+"projects and activities."
+
+#: project/about/templates/about/index.html:22
+msgid "about.tedx.content"
+msgstr ""
+"In the spirit of ideas worth spreading, TEDx is a program of local, self-"
+"organized events that bring people together to share a TED-like experience. "
+"At a TEDx event, TED Talks video and live speakers combine to spark deep "
+"discussion and connection. These local, self-organized events are branded "
+"TEDx, where x = independently organized TED event. The TED Conference "
+"provides general guidance for the TEDx program, but individual TEDx event "
+"are self-organized. (Subject to certain rules and regulations.)"
+
+#: project/about/templates/about/index.html:37
+msgid "about.tedxntua.content"
+msgstr ""
+"The various activities of the students and the academic community in general "
+"in the National Technical University of Athens are proof of creativity "
+"endemic. This scientific potential is the fundamental material for the "
+"creation of progressive ideas, which are capable of following the current "
+"advancements in science and technology. Nonetheless, the massive immigration "
+"of young graduates towards the flourishing economies of the world, the "
+"appearance of numerous new fields, the need for highly specialized "
+"scientists and employees, the general sense of individualism and especially "
+"the pervasive economical and ethical crisis have deprived the academic "
+"community of the collaborative spirit necessary in every learning "
+"experience. TEDxNTUA is an organized effort to create and sustain the "
+"necessary frame for the exchange of new ideas in the fields of technology "
+"and business administration. At the same time, NTUA’s community is becoming "
+"a living, extrovert organism focusing on the scientific and career goals of "
+"its members, while promoting the expansion of the network of collaboration "
+"between the NTUA, the industries and the startup community."
+
+#: project/contact/views.py:7
+msgid "test_message"
+msgstr "This is a test message"
+
+#: project/home/templates/home/index.html:7
+msgid "home_description"
+msgstr "Home page of TEDxNTUA event."
+
+#: project/home/templates/home/index.html:28
+msgid "venue_name1"
+msgstr "Hellenic Cosmos Cultural Centre"
+
+#: project/home/templates/home/index.html:29
+msgid "venue_name2"
+msgstr "Peiraios 274"
+
+#: project/home/templates/home/index.html:30
+msgid "venue_name3"
+msgstr "Tavros"
+
+#: project/home/templates/home/index.html:58
+msgid "enigma_alt"
+msgstr "TEDxNTUA Enigma "
+
+#: project/home/templates/home/index.html:62
+msgid "enigma_is"
+msgstr "Enigma is "
+
+#: project/home/templates/home/index.html:65
+msgid "enigma_opt_1"
+msgstr "mysterious"
+
+#: project/home/templates/home/index.html:66
+msgid "enigma_opt_2"
+msgstr "uncertain"
+
+#: project/home/templates/home/index.html:67
+msgid "enigma_opt_3"
+msgstr "inexplicable"
+
+#: project/home/templates/home/index.html:68
+msgid "enigma_opt_4"
+msgstr "fascinating"
+
+#: project/home/templates/home/index.html:73
+msgid "enigma.home.text"
+msgstr ""
+"<span class='primary_text'>Enigma</span>: that which is difficult to "
+"interpret, that which remains a mystery, something uncertain or "
+"inexplicable, a riddle not yet solved. <br> <br> The <i>unc<span "
+"class='primary_text'>e</span>rtain</i>, the <i>paradox</i>, the <i>unsolved</"
+"i>. <br> <br> It’s everywhere. From the grandest existe<span "
+"class='primary_text'>n</span>tial question, to the tiniest everyday query, "
+"enigma is the source of knowledge. <br> <br>A man-made invention, a problem "
+"man places upon himself. An innate need for answers, which builds "
+"superstructures: physics, biology, computer science, chem<span "
+"class='primary_text'>i</span>stry, astronomy, arts, philosophy, history, "
+"psychology, sociology, religion, politics. <br> <br> Every answer creates a "
+"new question, and leads the way to a new explanation, more updated, more "
+"satisfactory, more complete. The enigma is in search of a solution to what "
+"troubles the human mind, and the enigma is everything that troubles the "
+"human mind, at the same time. It’s the way of facin<span "
+"class='primary_text'>g</span> the world without the possibility of being "
+"wrong. It’s a positive perspective of an uncertain reality. The admiration "
+"of the enormous progress of humanity. <br> <br> An atte<span "
+"class='primary_text'>m</span>pt of self-awareness. <br> <br>  We can climb "
+"the mount of knowledge, one enigma at <span class='primary_text'>a</span> "
+"time."
+
+#: project/home/templates/home/index.html:83
+#: project/program/templates/program/speakers.html:11
+#: project/templates/layouts/partials/nav.html:51
+msgid "speakers"
+msgstr "Speakers"
+
+#: project/home/templates/home/index.html:118
+#: project/program/templates/program/speakers.html:45
+msgid "Host"
+msgstr "Host"
+
+#: project/home/templates/home/index.html:151
+#: project/program/templates/program/schedule.html:13
+#: project/program/templates/program/speakers.html:76
+msgid "to-be"
+msgstr "To be announced"
+
+#: project/home/templates/home/index.html:161
+msgid "map.venue"
+msgstr "Map & Venue"
+
+#: project/home/templates/home/index.html:163
+msgid "map.desc"
+msgstr ""
+"TEDxNTUA event will take place in Hellenic Cosmos Cultural Centre. The venue "
+"address is Peiraios 254, Tavros. Access via:"
+
+#: project/home/templates/home/index.html:166
+msgid "map.access0"
+msgstr "Taxi via <a href=\"https://get.uber.com/open_app\" "
+"target=\"_blank\">Uber</a>"
+
+#: project/home/templates/home/index.html:167
+msgid "map.access1"
+msgstr ""
+"Bus 049, 914 (<a href='http://telematics.oasa.gr/en/#stationInfo_450040_%CE"
+"%A3%CE%A7%CE%9F%CE%9B%CE%97%20%CE%9A%CE%91%CE%9B%CE%A9%CE%9D%20%CE%A4%CE"
+"%95%CE%A7%CE%9D%CE%A9%CE%9D' target='_blank'>SCHOLI KALON TECHNON</a> stop)"
+
+#: project/home/templates/home/index.html:168
+msgid "map.access2"
+msgstr ""
+"Metro green line (line 1) (<a href='http://www.stasy.gr/index.php?id=67&L=1' "
+"target='_blank'>KALLITHEA</a> stop)"
+
+#: project/home/templates/home/index.html:192
+msgid "auspices"
+msgstr "Under the auspices of NTUA"
+
+#: project/partners/admin.py:15 project/program/admin/presenter_admin.py:18
+msgid "Link"
+msgstr "Link"
+
+#: project/partners/models.py:50
+msgid "Grand Sponsors"
+msgstr "Grand Sponsors"
+
+#: project/partners/models.py:51
+msgid "Grand Carrier Sponsors"
+msgstr "Grand Carrier Sponsors"
+
+#: project/partners/models.py:52
+msgid "Grand Hospitality Sponsors"
+msgstr "Grand Hospitality Sponsors"
+
+#: project/partners/models.py:53
+msgid "Sponsors"
+msgstr "Sponsors"
+
+#: project/partners/models.py:54
+msgid "Supporters"
+msgstr "Supporters"
+
+#: project/partners/models.py:55
+#, fuzzy
+#| msgid "partners"
+msgid "Media Partners"
+msgstr "Media Partners"
+
+#: project/partners/models.py:56
+msgid "Community Partners"
+msgstr "Community Partners"
+
+#: project/partners/models.py:73 project/program/models.py:197
+#: project/program/models.py:351 project/team/models.py:84
+msgid "Published"
+msgstr "Published"
+
+#: project/program/admin/activity_admin.py:26
+msgid "Presenters"
+msgstr "Presenters"
+
+#: project/program/admin/presenter_admin.py:30
+msgid "Activities"
+msgstr ""
+
+#: project/program/forms/activity_form.py:17
+msgid "Get image from presenter"
+msgstr "Get image from presenter"
+
+#: project/program/forms/activity_form.py:18
+msgid ""
+"If selected, the image will be overridden by that of the first presenter"
+msgstr ""
+"If selected, the image will be overridden by that of the first presenter"
+
+#: project/program/forms/presenter_form.py:9
+#: venv/lib/python3.6/site-packages/django/forms/widgets.py:701
+msgid "No"
+msgstr "No"
+
+#: project/program/forms/presenter_form.py:21
+msgid "Assign empty activity"
+msgstr "Assign empty activity"
+
+#: project/program/forms/presenter_form.py:22
+msgid ""
+"This will create an empty and unpublished activity of the given type with "
+"the same photo as the presenter's"
+msgstr ""
+"This will create an empty and unpublished activity of the given type with "
+"the same photo as the presenter's"
+
+#: project/program/models.py:44
+msgid "Main stage"
+msgstr "Main stage"
+
+#: project/program/models.py:45
+msgid "Performances"
+msgstr "Performances"
+
+#: project/program/models.py:46
+msgid "Side events"
+msgstr "Side events"
+
+#: project/program/models.py:167
+msgid "General"
+msgstr "General"
+
+#: project/program/models.py:168
+msgid "Talk"
+msgstr "Talk"
+
+#: project/program/models.py:169
+#, fuzzy
+#| msgid "Performances"
+msgid "Performance"
+msgstr "Performance"
+
+#: project/program/models.py:170
+msgid "Workshop"
+msgstr "Workshop"
+
+#: project/program/models.py:171
+msgid "Hosting"
+msgstr "Hosting"
+
+#: project/program/templates/program/schedule.html:3
+#: project/templates/layouts/partials/nav.html:54
+msgid "schedule"
+msgstr "Schedule"
+
+#: project/program/templates/program/schedule.html:4
+msgid "schedule.description"
+msgstr "Schedule page of TEDxNTUA event."
+
+#: project/program/templates/program/schedule_desktop.html:7
+#: project/program/templates/program/schedule_mobile.html:25
+msgid "schedule_time"
+msgstr "Time"
+
+#: project/program/templates/program/speakers.html:39
+#: project/program/templates/program/speakers.html:69
+msgid "speakers.bio"
+msgstr "Bio"
+
+#: project/settings/base.py:175
+msgid "Greek"
+msgstr ""
+
+#: project/settings/base.py:176
+msgid "English"
+msgstr ""
+
+#: project/templates/layouts/partials/nav.html:48
+msgid "home"
+msgstr "Home"
+
+#: project/templates/layouts/partials/nav.html:57
+msgid "partners"
+msgstr "Partners"
+
+#: project/templates/layouts/partials/nav.html:60
+msgid "team"
+msgstr "Team"
+
+#: project/templates/layouts/partials/nav.html:63
+msgid "about"
+msgstr "About"
+
+#: project/templates/layouts/partials/nav.html:66
+msgid "tickets"
+msgstr "Get tickets!"
+
+#: project/urls.py:39
+msgid "TEDxNTUA 2019 administration"
+msgstr "TEDxNTUA 2019 administration"
+
+#: project/urls.py:40
+msgid "TEDxNTUA 2019 admin"
+msgstr "TEDxNTUA 2019 admin"
+
+#: project/utils/admin.py:21
+msgid "Translatable"
+msgstr "Translatable"
+
+#~ msgid "Draft"
+#~ msgstr "Draft"
+
+#~ msgid "to-be-1"
+#~ msgstr "To be announced"
+
+#~ msgid "team_description"
+#~ msgstr "TEDxNTUA team"
+
+#, fuzzy
+#~| msgid "map.desc"
+#~ msgid "map.access3"
+#~ msgstr ""
+#~ "TEDxNTUA event will take place in Hellenic Cosmos Cultural Centre. The "
+#~ "venue address is Peiraios 254, Tavros. The place is 10 minutes walking "
+#~ "distance from Kallithea's station, green line."
+
+#~ msgid "home.content_placeholder"
+#~ msgstr "This is a placeholder"
+
+#, fuzzy
+#~| msgid "about"
+#~ msgid "aboutt"
+#~ msgstr "About"
+
+#, fuzzy
+#~| msgid "about"
+#~ msgid "abouttt"
+#~ msgstr "About"
+
+#~ msgid "home.title"
+#~ msgstr "Home page"

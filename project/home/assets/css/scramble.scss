@@ -1,0 +1,46 @@
+.side-container{
+  position:relative;
+  top: 50%;
+}
+.textTed {
+  font-size: 50px;
+  // font-family: $font-stack;
+  color: $primary;
+  // font-style: italic;
+}
+
+.textTed:hover{
+    animation: blinker 1s linear;
+}
+
+.textEnigma{
+  // font-style: italic;
+  font-size: 50px;
+  color: $primary;
+}
+
+.textEnigma:hover{
+    animation: blinker 1s linear;
+}
+
+.textDate {
+  font-weight: 100;
+  font-size: 40px;
+  padding-top: 2rem;
+  color: $primary;
+}
+
+.textVenue {
+  font-size: 40px;
+  color: $primary;
+}
+
+.textAddress {
+  font-weight: 100;
+  font-size: 40px;
+}
+
+
+.dud {
+  color: #F19386;
+}

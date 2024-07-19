@@ -1,0 +1,201 @@
+/* SCHEDULE PAGE */
+
+article.schedule {
+	font-size: .75rem;
+	.nav-slider {
+		border-bottom: 4px solid $primary;
+		font-size: 1.1em;
+		justify-content: center;
+		.nav-link {
+			padding: .5rem;
+			&.active {
+				background-color: $primary;
+				color: $body-color;
+			}
+		}
+	}
+	h5 {
+		font-size: 1.25em;
+		font-weight: bold;
+	}
+	h6 {
+		font-size: 1em;
+		font-style: italic;
+	}
+	table, .table {
+		border-collapse: separate;
+		border-spacing: 0;
+		text-align: left;
+	}
+	tbody tr:not(.collapse-row) {
+		cursor: pointer;
+	}
+	thead {
+		background-color: $tertiary;
+		color: white;
+		font-size: 1.25em;
+	}
+	thead th {
+		border-bottom: 0;
+		border-top: 0;
+		width: 100%;
+	}
+	thead th:first-child {
+		width: auto;
+	}
+	.table th, .table td {
+		padding: .5rem;
+	}
+	tr:first-child td {
+		border-top: 0;
+	}
+	td {
+		height: 100%;
+	}
+	td.time {
+		font-size: 1.25em;
+		font-weight: 500;
+	}
+	td img {
+		align-self: center;
+		margin-right: 1rem;
+		height: auto;
+		max-width: 120px;
+		width: 40%;
+	}
+	td .image-placeholder {
+		align-self: stretch;
+		background: linear-gradient(#DDDDDD, #FAFAFA);
+		margin-right: 1rem;
+		max-width: 120px;
+		width: 40%;
+	}
+	td ul, td ol {
+		padding-left: 1em;
+	}
+	table.full-schedule tr td:not(:last-child) {
+		border-right: 2px solid #E9ECEF;
+	}
+	table.full-schedule tbody tr:hover:not(.collapse-row) td {
+		border-color: #DDD;
+	}
+	td .cell-content:not(.collapsing) {
+		height: 100%;
+	}
+	tr.collapse-row {
+		background-color: transparent;
+	}
+	tr.collapse-row td {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	td .more {
+		padding-top: 0.75rem;
+		padding-bottom: 0.75rem;
+		line-height: 1.25;
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.empty-row {
+		.cell-content {
+			padding: 1rem;
+			margin: 0 auto;
+			text-align: center;
+		}
+		.cell-content > span.empty-sign {
+			display: block;
+			font-size: 5rem;
+			line-height: 1.1;
+		}
+		p {
+			margin: .5rem 0;
+			font-size: 1em;
+		}
+	}
+}
+#tba {
+    padding-top: 10%;
+    margin-top: 50;
+  .spinner {
+    margin-top: 15% auto 0;
+    width: 70px;
+    text-align: center;
+    display: inline-block;
+  }
+  .tba_text {
+    display: inline-block;
+  }
+  .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: $primary;
+
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+
+  .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+
+  .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% {
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }
+}
+
+
+
+/*
+ * MEDIA QUERIES
+ */
+
+@include media-breakpoint-up(sm) {
+	article.schedule {
+		font-size: .85rem;
+		.nav-slider {
+			.nav-link {
+				padding: .5rem 1rem;
+			}
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+	article.schedule {
+		font-size: 1rem;
+		.table th, .table td {
+			padding: .75rem;
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	article.schedule {
+		thead th {
+			width: 30%;
+		}
+		thead th:first-child {
+			width: 10%;
+		}
+	}
+}

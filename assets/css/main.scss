@@ -1,0 +1,74 @@
+// Variables
+@import "variables";
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,500,700&subset=greek");
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~compass-mixins/lib/compass/css3";
+
+// Animate
+//@import "animate";
+
+/** GENERAL GUIDELINES **/
+
+/* 	MOBILE FIRST APPROACH
+ *	In each CSS file, the styles that target the smallest device size should appear at the top.
+ *	Styles for larger device sizes should be changed in the "Media queries" section at the end of each file.
+ */
+
+/*	MEDIA QUERIES SECTIONS
+ *	Media queries should be ordered by screen size, starting from the breakpoint of the smallest size.
+ *	Legend:
+ *		- sm: >= 576px
+ *		- md: >= 768px
+ *		- lg: >= 992px
+ *		- xl: >= 1200px
+ *		- custom 1366px
+ */
+
+/* 	DOCUMENTATION FOR .row AND .col ELEMENTS:
+ *	.col elements should all collapse in the lg-breakpoint.
+ *	Thus, for small device sizes (< lg) where each .col is presented as a row,
+ *	margin-bottom is added to .col elements.
+ *	Likewise, for larger device sizes (> lg) where many .col elements are contained
+ *  in a .row element, margin-bottom is added to .row elements.
+ */
+
+
+// GLOBALS
+@import "globals";
+
+// NAVIGATION MENU
+@import "nav";
+
+// MAIN SECTIONS
+@import "main-sections";
+
+// PAGE STYLING
+@import "pages-styling";
+
+// FOOTER
+@import "footer";
+
+// COLLAPSE TRIANGLE
+@import "collapse-triangle";
+
+// INSERT HERE OTHER COMPONENT STYLES
+// ...
+
+// INDIVIDUAL PAGE STYLES
+@import "~@/home/assets/css/home";
+@import "~@/home/assets/css/scramble";
+@import "~@/about/assets/css/about";
+@import "~@/program/assets/css/speakers";
+@import "~@/program/assets/css/schedule";
+@import "~@/partners/assets/css/partners";
+@import "~@/team/assets/css/team";
+
+
+
+/*
+ * GENERAL MEDIA QUERIES
+ */

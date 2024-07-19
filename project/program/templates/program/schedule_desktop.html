@@ -1,0 +1,88 @@
+{% load i18n %}
+{% load schedule_extras %} {# see templatetags/schedule_extras.py for docs #}
+
+<table class="table full-schedule table-hover d-none d-lg-table">
+    <thead>
+        <tr>
+            <th scope="col">{% trans "schedule_time" %}</th>
+            {% for stage, stage_name in stages.items %}
+            <th scope="col" class="{{stage}}-stage">{{stage_name}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+    {% for time, row in schedule.items %}
+        {% with row_id=forloop.counter|make_row_id %}
+        <tr data-toggle="collapse" data-target=".{{row_id}}" class="collapsed" aria-expanded="false">
+            <td class="time">
+                <div class="cell-content">
+                    <time datetime="{{day}} {{time}}">{{time}}</time>
+                </div>
+            </td>
+            {% for stage, event in row.items %}
+            <td class="event">
+                {% if event %}
+                <div class="cell-content media">
+                    {% if event.image %}
+                        <img srcset="{{ event.image.thumbnail.320x320.url }} 320w,
+                                            {{ event.image.thumbnail.720x720.url }} 720w,
+                                            {{ event.image.thumbnail.1024x1024.url }} 1024w"
+                            sizes="(max-width: 576px) 320px,
+                                            (max-width: 992px) 720px,
+                                            1024px"
+                            src="{{ event.image.thumbnail.320x320.url }}"
+                            alt="{{ event.title }}" />
+                    {% else %}
+                        <div class="image-placeholder"></div>
+                    {% endif %}
+
+                    <div class="media-body">
+                        <h5>
+                            {% for presenter in event.presenters.all %}
+                            {% comment %}
+                                just an example on how to differentiate between
+                                talks, performances etc. edit as you wish
+                            {% endcomment %}
+                                {% if event.activity_type == "T" %}
+                                    <a href="/speakers/#{{presenter.id}}">{{presenter.fullname}}</a>
+                                {% else %}
+                                    {{presenter.fullname}}
+                                {% endif %}
+                            {% endfor %}
+                        </h5>
+                        <h6>
+                            {{event.title}}
+                        </h6>
+                    </div>
+                </div>
+                <p>{{event.subtitle}} ({{event.time_span}})</p>
+                {% else %}
+                <div class="cell-content"></div>
+                {% endif %}
+            </td>
+            {% endfor %}
+        </tr>
+        <tr class="collapse-row hidden">
+            <td>
+                <div class="cell-content {{row_id}} collapse">
+                    <div class="more"></div>
+                </div>
+            </td>
+            {% for stage, event in row.items %}
+            <td>
+                {% if event %}
+                <div class="cell-content {{row_id}} collapse">
+                    <div class="more">{{event.description}}</div>
+                </div>
+                {% else %}
+                <div class="cell-content {{row_id}} collapse">
+                    <div class="more"></div>
+                </div>
+                {% endif %}
+            </td>
+            {% endfor %}
+        </tr>
+        {% endwith %}
+    {% endfor %}
+    </tbody>
+</table>
